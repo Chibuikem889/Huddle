@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    /* primary-colors */
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+    /* fonts */
+    --Family: [Poppins];
+    --weight1:400;
+    --weight2:600;
+    /* fonts2 */
+    --Family2: [Open Sans];
+    --weight1:400;
+}
+.hero{
+    background-color: var(--Violet);
+    display: flex;
+    flex-direction: row;
+    background-image: url(/CSS/Resources/images/bg-desktop.svg);
+}
+.div-1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 50px;
+}
+.div-2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+    color: white;
+}
+.div-2 h1{
+    font-family: var(--Family);
+    font-weight: var(--weight2);
+    font-size: 2.5rem;
+}
+.div-2 p{
+    font-family: var(--Family2);
+    font-weight: var(--weight1);
+    font-size: 1.2rem;
+}
+.div-2 button{
+    background-color:white;
+    color: var(--Violet);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-family: var(--Family2);
+    font-weight: var(--weight2);
+    font-size: 0.75rem;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
